@@ -1,0 +1,32 @@
+{
+  "name": "lue",
+  "version": "0.0.0",
+  "description": "Control the Philips Hue with the Leap Motion Controller",
+  "main": "index.js",
+  "dependencies": {
+    "q": "~1.0.0",
+    "q-io": "~1.11.0",
+    "underscore": "~1.6.0",
+    "node-hue-api": "~0.2.2",
+    "prompt": "~0.2.12",
+    "leapjs": "~0.4.1",
+    "leapjs-plugins": "~0.1.1",
+    "speakable": "git://github.com/sreuter/node-speakable.git#fa84c9da08d845809b079e0e226f3cdd63458c25"
+  },
+  "devDependencies": {
+    "grunt-contrib-coffee": "~0.10.1",
+    "grunt": "~0.4.2",
+    "grunt-contrib-watch": "~0.5.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paulmand3l/leap-hue.git"
+  },
+  "author": "Paul Mandel",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "2732ea07feef30e4609735a5d157dca7a20019e5"
+}
